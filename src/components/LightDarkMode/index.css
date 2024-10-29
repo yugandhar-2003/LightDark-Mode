@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  background-size: cover;
+  height: 20vh;
+  width: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Bree Serif';
+  border-color: black;
+  border-style: solid;
+  border-radius: 10px;
+  margin-top: 40%;
+  margin-left: 10%;
+}
+.heading {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.paragraph {
+  font-size: 30px;
+  color: #ffffff;
+}
+.buttons {
+  background-color: #ffffff;
+  font-size: 18px;
+  border-radius: 10px;
+  border-width: 2px;
+  padding: 10px;
+  border-color: black;
+  border-style: solid;
+}
+
+.light-mode {
+  background-color: white;
+  color: black;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
